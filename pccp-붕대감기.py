@@ -18,9 +18,4 @@ def solution(bandage, health, attacks):
     
     if(answer<0):
         return -1
-    return answer   
-
-
-a = solution(	[5, 1, 5], 30, [[2, 10], [9, 15], [10, 5], [11, 5]])
-
-print(a)
+    return answer 
