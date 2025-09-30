@@ -9,7 +9,7 @@ def bfs(start, graph, visited):
         a = q.popleft()
         for b in range(len(graph)):
             if(graph[a][b] == 1 and visited[b] != True):
-                visited[b] == True
+                visited[b] = True
                 q.append(b)
 
 def solution(n, computers):
